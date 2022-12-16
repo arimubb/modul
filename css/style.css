@@ -1307,20 +1307,11 @@ nav {
     left: 300px;
   }
   .section__footer-img2 {
-    left: 100px;
-    top: 4900px;
-    animation: rotatee 10s linear infinite;
-  }
-  @keyframes rotatee {
-    0% {
-      transform: rotate(0deg) translateY(0px);
-    }
-    50% {
-      transform: rotate(180deg) translateY(200px);
-    }
-    100% {
-      transform: rotate(360deg) translateY(0px);
-    }
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 1px;
+    visibility: hidden;
   }
   .section__footer-img1 {
     left: 1px;
@@ -1418,9 +1409,12 @@ nav {
     width: 200px;
     height: 243px;
   }
+  .block1-text {
+    margin-left: 40px;
+  }
   .block2-text {
     font-size: 15px;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 20px;
     width: 230px;
   }
@@ -1438,7 +1432,7 @@ nav {
   }
   .block3-text {
     font-size: 15px;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 5px;
     width: 230px;
   }
